@@ -12,7 +12,7 @@
         font-size: 30px;
         text-align: center;
     }
-    #but {
+    #btn {
         box-sizing: border-box;
         width: 95px;
         height: 40px;
@@ -22,16 +22,27 @@
         font-family: Verdana,
             Geneva, Tahoma, sans-serif;
  
-        background-color: dodgerblue;
+        background-color: rgb(123, 187, 252);
         color: white;
         font-size: 20px;
         cursor: pointer;
+    }
+    #btn:hover{
+        background-color: dodgerblue;
+        font-weight: 500;
     }
     #print {
         font-family: Verdana,
             Geneva, Tahoma, sans-serif;
  
         color: dodgerblue;
+        /* padding: 10px 10px; */
+        height: 30px;
+        width: 200px;
+        border-radius: 10px;
+        padding: 10px;
+        margin: auto;
+        border: 3px solid red;
         font-size: 20px;
     }
     #main {
